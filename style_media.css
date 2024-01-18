@@ -1,0 +1,11 @@
+
+@media screen and (max-width:486px) {
+    .Image_class {
+        max-width: 100%;
+        height: 37%;
+    }
+    .box {
+    margin-top: 15%;
+    margin-left: 16%;
+    }
+}
