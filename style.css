@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+body{
+    display: flex;
+}
+.box {
+    background-color: hsl(0, 0%, 100%);
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 10%;
+    min-height: 415px;
+    min-width: 280px;
+    max-height: 384px;
+    max-width: 322px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+.Image_class {
+    margin-top: 16px;
+    margin-left: 14px;
+    border-radius: 4%;
+    height: 205px;
+    max-height: 174px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.Learning {
+    justify-content: center;
+    display: inline-grid;
+    align-content: center;
+    font-size: small;
+    border-radius: 7%;
+    margin-left: 5%;
+    margin-top: 65%;
+    padding: 0.2rem;
+    width: 64px;
+    font-weight: 900;
+    font-family: figtree;
+}
+#pub {
+    font-size: smaller;
+    padding-top: 4%;
+    padding-left: 5%;
+    font-family: 'Figtree';
+    font-weight: 100;
+    background-color: white;
+}
+#head {
+    font-weight: 900;
+    padding-top: 10px;
+    padding-left: 14px;
+    font-size: 21px;
+    background-color: white;
+    color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+/* .f_class{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+} */
+.f_class #para {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: Figtree;
+    font-size: 14px;
+    background-color: white;
+    color: hsl(0, 0%, 50%);
+}
+#im_avt {
+    margin-top: 16px;
+    margin-left: 15px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+}
+#name {
+    font-weight: 900;
+    font-family: Figtree;
+    margin-top: -29px;
+    margin-left: 59px;
+    background-color: white;
+}
+.box{
+    box-shadow: 10px 10px;
+}
