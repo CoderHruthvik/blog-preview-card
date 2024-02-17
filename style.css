@@ -93,3 +93,12 @@ cursor: pointer;
 .box{
     box-shadow: 10px 10px;
 }
+
+
+#page_end{
+    font-weight: 600;
+    font-family: sans-serif;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
